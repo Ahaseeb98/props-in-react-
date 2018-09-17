@@ -13,7 +13,7 @@ class LightOn extends Component {
     const {x} = this.props;
         return (
         <div className="App">
-        <button type="button" onClick={x}> click Me! </button>
+        <button type="button" onClick={x}> Turn On </button>
         </div>
     );
   }

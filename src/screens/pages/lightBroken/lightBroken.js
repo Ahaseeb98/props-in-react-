@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 // import onBulb from '../../../c.webp';
 import '../../../App.css';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 
 class LightOn extends Component {
   constructor(props) {
@@ -10,10 +13,10 @@ class LightOn extends Component {
         }
     }
   render() {
-    const {x} = this.props;
+    console.log(this.props.name)
     return (
         <div className="App">
-        <button type="button" onClick={x}> click Me! </button>
+        <button type="button" onClick={this.props.x}> Reset </button>
         </div>
     );
   }

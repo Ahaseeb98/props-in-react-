@@ -1,18 +1,13 @@
-/* .App {
-  background: pink;
-} */
+.App {
+ margin: 0% auto;
+ text-align: center;
+}
 
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
 
 .App-title {
   font-size: 1.5em;
@@ -21,9 +16,14 @@
 .App-intro {
   font-size: large;
 } */
-body{
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 20px;
+  color: white;
   text-align: center;
 }
+
 .box {
   width: 250px;
   height: 250px;
@@ -76,6 +76,21 @@ body{
 
 
 .bulb{
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
+}
+button {
+  padding: 20px 30px;
+  background-color: #222;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  transition-delay: 100ms;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(221, 221, 221);
+  color: #222;
+
 }
