@@ -2,6 +2,11 @@
  margin: 0% auto;
  text-align: center;
 }
+body{
+  text-align: center;
+  margin: 0% auto;
+
+}
 
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -16,6 +21,30 @@
 .App-intro {
   font-size: large;
 } */
+.quizListCont{
+  margin: 10px 20px;
+  /* background-color: aliceblue; */
+  width: 93%;
+  padding: 20px;
+}
+.quizList li {
+  width: 89%;
+  display: inline-block;
+  /* margin: 12px 10px; */
+  font-weight: 700;
+  font-size: 19px;
+}
+.quizList {
+  background: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 7px;
+  border: 0.5px solid palevioletred 
+}
+.quizListBtn {
+  margin: 0px 10px;
+}
+/* .qui */
 .App-header {
   background-color: #222;
   height: 60px;
@@ -23,15 +52,25 @@
   color: white;
   text-align: center;
 }
-
+.flex {
+width: 95%;
+}
 .box {
-  width: 250px;
-  height: 250px;
-  background: rgb(212, 212, 212);
-  display: inline-block;
+  text-align: left;
+  width: 550px;
+  /* height: 450px; */
+  background: rgb(255, 255, 255);
+  display: block;
+  /* display: inline-block; */
   margin: 10px;
-  padding: 0%;
-  display: none;
+  padding: 2%;
+  /* display: none; */
+}
+.nextBtn{
+display: block;
+width: 550px;
+text-align: right;
+/* background: pink; */
 }
 .box2 {
   font-family: monospace;
@@ -79,18 +118,13 @@
   width: 400px;
   height: 400px;
 }
-button {
-  padding: 20px 30px;
-  background-color: #222;
-  color: white;
-  border: none;
-  font-size: 20px;
-  border-radius: 10px;
-  transition-delay: 100ms;
-}
-button:hover {
-  cursor: pointer;
-  background-color: rgb(221, 221, 221);
-  color: #222;
 
+.logCont {
+  margin: 70px auto;
+  border: 1px solid rgb(211, 211, 211);
+  padding: 20px 0px;
+  padding-bottom: 50px;
+  width: 330px;
+  border-radius: 20px;
+  background: rgb(245, 245, 245);;
 }
